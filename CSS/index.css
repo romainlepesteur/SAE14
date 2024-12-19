@@ -133,13 +133,54 @@ h2{
     text-transform: uppercase;
 }
 .banniere{
-    background-color: #333;
-    color: #fff;
+    background: linear-gradient(45deg, #00d2ff, #0066cc); 
+    color: #ffffff;
     text-align: center;
-    padding: 10px 0;
-    font-size: 24px;
+    padding: 20px;
+    font-size: 26px;
     font-weight: bold;
+    border-radius: 8px;
 }
+.liens{
+    background-color: #1c1c1c;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.liens h2{
+    font-size: 1.8em;
+    color: #00d2ff;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.liens ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.liens li{
+    margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #e0e0e0; 
+}
+
+.liens a{
+    color: #00d2ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.liens a:hover{
+    color: #004999;
+    text-decoration: underline;
+}
+
+
 @media (max-width: 768px){
     header{
         flex-direction: column;
@@ -161,7 +202,7 @@ h2{
     }
 
     .banniere{
-        font-size: 20px;
+        font-size: 22px;
         padding: 15px 0;
     }
 
@@ -182,7 +223,7 @@ h2{
 
 @media (max-width: 480px){
     .banniere{
-        font-size: 18px;
+        font-size: 15px;
         padding: 8px 0;
     }
 
@@ -202,3 +243,8 @@ h2{
         font-size: 14px;
     }
 }
+
+
+
+
+
