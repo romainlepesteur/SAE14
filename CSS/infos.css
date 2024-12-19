@@ -74,7 +74,7 @@ main h1{
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
 }
 
 .attaque-item h2{
@@ -87,7 +87,7 @@ main h1{
 .attaque-item p{
     font-size: 18px;
     color: #ccc;
-
+}
 footer{
     color: #00d2ff; 
     background-color: #1c1c1c;
@@ -120,4 +120,31 @@ h2{
     text-transform: uppercase;
 }
 
+.solut-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 2 colonnes flexibles */
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 1200px; /* Largeur maximale pour centrer */
+    margin-top: 40px;
+}
 
+.solut-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Ajout d'ombre pour uniformiser avec attaque-item */
+}
+
+
+.solut-item h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.solut-item p {
+    font-size: 18px;
+    color: #ccc;
+}
