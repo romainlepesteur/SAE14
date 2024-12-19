@@ -1,0 +1,123 @@
+body{
+    font-family: 'Courier New', Courier, monospace; 
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #121212;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.logo img{
+    height: 60px;
+}
+
+
+.navi ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navi li{
+    margin: 0 20px;
+}
+
+.navi a{
+    color: #b0b0b0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navi a:hover {
+    color: #00d2ff; 
+}
+
+main{
+    padding: 50px 20px;
+    text-align: center;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+main h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #00d2ff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.attaque-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 40px;
+}
+
+.attaque-item{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.attaque-item h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.attaque-item p{
+    font-size: 18px;
+    color: #ccc;
+
+footer{
+    color: #00d2ff; 
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+footer p{
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+
+
+
+h2{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+
