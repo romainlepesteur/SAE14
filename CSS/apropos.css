@@ -14,7 +14,6 @@ header{
     padding: 20px;
     background-color: #1c1c1c;
     color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .logo img{
@@ -24,11 +23,10 @@ header{
 
 .navi ul{
     display: flex;
-    list-style-type: none;
 }
 
 .navi li{
-    margin: 0 20px;
+    margin: 20px;
 }
 
 .navi a{
