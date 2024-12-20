@@ -14,7 +14,6 @@ header{
     padding: 20px;
     background-color: #1c1c1c;
     color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .logo img{
@@ -48,17 +47,15 @@ main{
     padding: 50px 20px;
     text-align: center;
     flex-grow: 1;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0);
     margin-top: 80px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 main h1{
     font-size: 36px;
     font-weight: 700;
     color: #00d2ff;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .attaque-list{
@@ -71,7 +68,7 @@ main h1{
 }
 
 .attaque-item{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 10px;
 
@@ -130,10 +127,9 @@ h2{
 }
 
 .solut-item {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .solut-item h2 {
@@ -152,7 +148,6 @@ main h2{
     font-size: 36px;
     font-weight: 700;
     color: #00d2ff;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 @media (max-width: 768px) {
     header {
