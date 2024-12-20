@@ -7,5 +7,5 @@ J'ai également utilisé les sites Grid Attack et Flexbox Froggy, qui m'ont éno
 Pour le design de ce site, j'ai voulu lui donner un style en lien avec la cybersécurité, en utilisant une police qui ressemble à celle d'un terminal de commande. J'ai également choisi des couleurs qui pour moi, évoquent la technologie.
 
 Le site inclut également certaines animations en CSS, qui ajoutent de la vie au site web.
-
+mon site web respecte egalement les normes W3C et WCAG 2.0 AA pour l'accessibilitée
 Voici le lien pour vous informer sur le monde de la cybersécurité : https://romainlepesteur.github.io/SAE14/ 
