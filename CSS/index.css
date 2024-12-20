@@ -125,6 +125,7 @@ footer p{
 h1{
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
+    color: #00d2ff;
 }
 
 h2{
@@ -181,6 +182,45 @@ h2{
 }
 
 
+.metier {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 20px 0;
+    border-radius: 8px;
+    margin-top: auto;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 300px;
+}
+
+.images img {
+    height: 80px;
+    transition: transform 0.3s;
+}
+
+.images p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.images:hover img {
+    transform: scale(1.2);
+}
 @media (max-width: 768px){
     header{
         flex-direction: column;
