@@ -56,3 +56,48 @@ p{
     text-align: center;
     font-size: 24px;
 }
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo img{
+        height: 50px;
+    }
+
+    .navi ul{
+        flex-direction: column;
+    }
+
+    .navi li{
+        margin: 10px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 20px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 480px){
+    .logo img{
+        height: 40px;
+    }
+
+    .navi a{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
