@@ -97,7 +97,7 @@ footer{
     font-size: 14px;
     position: relative;
     width: 100%;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+
 }
 
 
@@ -122,10 +122,10 @@ h2{
 
 .solut-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 2 colonnes flexibles */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     margin: 0 auto;
-    max-width: 1200px; /* Largeur maximale pour centrer */
+    max-width: 1200px;
     margin-top: 40px;
 }
 
@@ -133,9 +133,8 @@ h2{
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Ajout d'ombre pour uniformiser avec attaque-item */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
-
 
 .solut-item h2 {
     font-size: 28px;
